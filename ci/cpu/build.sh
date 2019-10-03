@@ -1,3 +1,7 @@
 #!/bin/bash
 echo "================== CPU =================="
-env
+
+cd $WORKSPACE/src
+gcc -v -o hello hello.c
+
+echo "Build complete"
